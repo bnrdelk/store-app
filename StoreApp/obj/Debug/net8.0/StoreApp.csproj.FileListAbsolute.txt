@@ -3,8 +3,6 @@
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.AssemblyInfo.cs
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.csproj.CoreCompileInputs.cache
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.MvcApplicationPartsAssemblyInfo.cache
-/Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.RazorAssemblyInfo.cache
-/Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.RazorAssemblyInfo.cs
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.sourcelink.json
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/bin/Debug/net8.0/appsettings.Development.json
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/bin/Debug/net8.0/appsettings.json
@@ -136,3 +134,5 @@
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/beyzanurdeliktas/Desktop/Store/StoreApp/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.RazorAssemblyInfo.cache
+/Users/beyzanurdeliktas/Desktop/Store/StoreApp/obj/Debug/net8.0/StoreApp.RazorAssemblyInfo.cs
