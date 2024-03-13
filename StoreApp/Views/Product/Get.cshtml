@@ -1,6 +1,6 @@
 @using StoreApp.Models
 
-@model IEnumerable<Product>
+@model Product
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,15 +11,11 @@
     <title>Document</title>
 </head>
 <body>
-    @foreach(var p in Model)
-    {
-        <div>
-            <h3>@p.ProductName</h3>
-            <p>@p.Price</p>
-            <p>
-                <a href="/product/get/@p.ProductId">Details</a>
-            </p>
-        </div>
-    }
+    <p>@Model.ProductId</p>
+    <h3>@Model.ProductName</h3>
+    <p>@Model.Price</p>
+    <p>
+        <a href="/product">Back to Products</a>
+    </p>
 </body>
 </html>
