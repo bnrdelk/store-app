@@ -1,24 +1,10 @@
-@using StoreApp.Models
 
 @model Product
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <p>@Model.ProductId</p>
     <h3>@Model.ProductName</h3>
     <p>@Model.Price</p>
-    <p>
-        <a href="/product">Back to Products</a>
-    </p>
-</body>
 
-</html>
+    <div class="btn-group">
+        <a asp-controller="Product" asp-action="Index" class="btn btn-outline-dark">Back</a>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-light">Home</a>
+    </div>

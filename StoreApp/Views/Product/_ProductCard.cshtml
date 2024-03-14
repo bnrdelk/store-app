@@ -1,0 +1,12 @@
+@model Product
+
+<div class="col-sm-12 col-md-4 my-2">
+    <div class="card" style="width: 15rem;">
+        <img src="..." class="card-img-top" alt="@Model.ProductName's image">
+        <div class="card-body">
+          <h5 class="card-title">@Model.ProductName</h5>
+          <p class="card-text"><p>@Model.Price.ToString("c")</p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a class="btn btn-light" asp-action="Get" asp-route-id="@Model.ProductId">Get Details</a>
+        </div>
+      </div>
+</div>

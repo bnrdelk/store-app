@@ -1,18 +1,14 @@
 @model IEnumerable<Product>
 
     @section Footer{
-        <div>
-            <p>footer for product index only</p>
-        </div>
-    }
-
-    @foreach(var p in Model)
-    {
     <div>
-        <h3>@p.ProductName</h3>
-        <p>@p.Price</p>
-        <p>
-            <a href="/product/get/@p.ProductId">Details</a>
-        </p>
+        <p>footer for product index only</p>
     </div>
     }
+
+    <div class="row">
+        @foreach(var p in Model)
+        {
+        <partial name="_ProductCard" model="@p" />
+        }
+    </div>
